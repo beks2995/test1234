@@ -29,7 +29,7 @@ const App = () => {
             <div className="weather-box">
                 <form onSubmit={submitHandler}>
                     <input type="text" name='citysName' value={city} onChange={changeHandle} />
-                    <button type='submit' >find</button>
+                    <button type='submit' >find city</button>
                 </form>
                 {
                     weather
